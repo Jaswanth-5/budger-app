@@ -1,0 +1,11 @@
+<div class="root">
+    <div class="budget-item income" (click)="onCardClick()" >
+        <div class="description">
+            <p class="tb">{{ item.description }}</p>
+        </div>
+        <div class="amount">
+            <p class="bg">{{item.amount}}</p>
+        </div>
+    </div>
+    <div class="x-icon-button" (click)="onXButtonClick()"></div>
+</div>
